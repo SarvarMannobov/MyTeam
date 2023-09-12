@@ -1,0 +1,515 @@
+@import url("https://fonts.googleapis.com/css2?family=Livvic:wght@600;700&family=Poppins:wght@200&family=Roboto:wght@400;500;700&family=Rubik:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(1, 78, 86, 1);
+  font-family: "Livvic", serif;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.header {
+  padding: 70px;
+}
+.header .container {
+  display: flex;
+  /* justify-content: flex-start;
+  align-items: center; */
+}
+.header .container .navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin: 5px;
+}
+
+.header .container .logo {
+  margin-right: 80px;
+}
+
+.header .container .nav-items .nav-item .item-link {
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  transition: 0.6s;
+}
+.header .container .nav-items .nav-item .item-link:hover {
+  color: rgba(246, 126, 126, 1);
+}
+
+/* .header .container .btn { */
+/* display: flex;
+    margin: 0 0 0 500px;
+    border: 2px solid black;
+    border-radius: 20px;
+    transition: 0.6s;
+     */
+
+.header .container .buttons .contact:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.header .container .buttons a:hover {
+  color: red;
+}
+.header .img img {
+  margin: 65px 125px 0 0;
+  display: flex;
+}
+
+.header .container .text h1 {
+  color: white;
+  width: 655px;
+  /* height: 200px; */
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 100px;
+  margin: 100px 0;
+}
+
+.header .container .btn {
+  color: white;
+  background-color: rgba(1, 78, 86, 1);
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: 1px solid white;
+  margin-left: auto;
+  transition: 0.3s;
+}
+
+.header .container .btn:hover {
+  background-color: rgba(246, 126, 126, 1);
+  color: white;
+}
+
+/* main */
+.main {
+  margin-top: 50px;
+  position: relative;
+  height: 500px;
+}
+.main .container {
+  position: relative;
+}
+.main .container .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.main .container .title h1 {
+  font-size: 100px;
+  width: 600px;
+  height: 200px;
+  color: white;
+}
+
+.main .container .text {
+  color: white;
+  width: 445px;
+  height: 112px;
+  font-weight: 600;
+  line-height: 28px;
+  font-size: 18px;
+}
+
+.main .container .title h1 .brand-talent {
+  color: rgba(246, 126, 126, 1);
+}
+
+.main .container .text .line {
+  background: rgba(121, 200, 199, 1);
+  width: 50px;
+  height: 4px;
+  margin: 60px 0;
+}
+.main .img {
+  position: absolute;
+  top: 25px;
+}
+.main .container .disk-bottom {
+  position: absolute;
+  right: 0px;
+  bottom: -304px;
+}
+
+.services {
+  padding: 70px 0;
+  background: rgba(1, 47, 52, 1);
+}
+
+.services .container {
+  display: flex;
+  /* margin-top: 30px ; */
+  /* width: 1220px; */
+  /* margin: 0 auto; */
+  padding: 0 60px;
+  margin-top: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.services .services-info {
+  /* margin: 140px 0; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.services .container .services-info .first .image {
+  width: 56px;
+  height: 56px;
+  bottom: 30px;
+  /* padding: 10px ; */
+  border-radius: 90%;
+  background: #2c6269;
+  position: relative;
+  z-index: -1;
+}
+.services .container .services-info .first {
+  position: relative;
+  z-index: 10;
+}
+.services h2 {
+  width: 445px;
+  /* height: 140px; */
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 28px;
+  color: white;
+}
+
+.services .services-info h2 {
+  /* width: 445px; */
+  /* height: 28px; */
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  color: rgba(246, 126, 126, 1);
+}
+
+.services .container .line {
+  background: rgba(246, 126, 126, 1);
+  width: 50px;
+  height: 4px;
+  margin: 54px 0;
+}
+
+.services .services-info p {
+  width: 445px;
+  /* height: 50px; */
+  font-size: 15px;
+  color: white;
+  font-weight: 600;
+  line-height: 25px;
+  margin: 16px 0;
+}
+
+.services .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
+
+.services .title h2 {
+  line-height: 48px;
+  margin-bottom: 90px;
+}
+
+.services .container .wrapper .services-info .first {
+  display: flex;
+  justify-content: center;
+
+  gap: 23px;
+  align-items: start;
+}
+
+/* .services .container .wrapper .services-info .second .img-2 img {
+  width: 50px;
+  height: 50px;
+} */
+.services .container .wrapper .services-info .second {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 23px;
+  align-items: start;
+}
+/* .services .container .wrapper .services-info .second .image {
+  width: 56px;
+  height: 56px;
+  position: relative;
+  bottom: 30px;
+  /* padding: 10px ; */
+
+/* } */
+
+.services .container .wrapper .services-info .third {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 23px;
+  align-items: start;
+}
+
+/* stories */
+.stories {
+  background: #004047;
+  padding: 70px 0;
+}
+.stories .container .title {
+  width: 932px;
+  font-family: "Livvic", serif;
+
+  font-size: 30px;
+  line-height: 48px;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+}
+
+.stories .container .title span {
+  color: #79c8c7;
+}
+
+.stories .container .text .author1 {
+  width: 350px;
+  font-family: "Livvic", serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: white;
+  margin-top: 36px;
+}
+.stories .container .text .name {
+  color: #79c8c7;
+  width: 350px;
+  font-family: "Livvic";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.stories .container .text .work {
+  color: white;
+  font-size: 13px;
+  line-height: 18px;
+  align-items: center;
+  font-style: italic;
+  text-align: center;
+}
+
+.stories .container .text .img {
+  /* margin: 32px 0 0 100px; */
+  padding: 32px 0 0 150px;
+}
+
+.stories .container .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 56px;
+}
+
+.stories .container .text2 .author2 {
+  width: 350px;
+  font-family: "Livvic", serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: white;
+  margin-top: 36px;
+}
+
+.stories .container .text2 .name2 {
+  color: #79c8c7;
+  width: 350px;
+  font-family: "Livvic";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.stories .container .text2 .work2 {
+  color: white;
+  font-size: 13px;
+  line-height: 18px;
+  align-items: center;
+  font-style: italic;
+  text-align: center;
+}
+
+.stories .container .text2 .img2 {
+  /* margin: 32px 0 0 100px; */
+  padding: 35px 0 0 150px;
+}
+
+.stories .container .text3 .author3 {
+  width: 350px;
+  font-family: "Livvic", serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: white;
+  margin-top: 36px;
+}
+
+.stories .container .text3 .name3 {
+  color: #79c8c7;
+  width: 350px;
+  font-family: "Livvic";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+}
+.stories .container .text3 .work3 {
+  color: white;
+  font-size: 13px;
+  line-height: 18px;
+  align-items: center;
+  font-style: italic;
+  text-align: center;
+}
+
+.stories .container .text3 .img3 {
+  /* margin: 32px 0 0 100px; */
+  padding: 35px 0 0 150px;
+}
+
+/* start */
+.start {
+  background: #f67e7e;
+  padding: 60px 0 0;
+}
+
+.start .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.start .container .title .h1 {
+  color: #012f34;
+  font-family: "Livvic";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 28px;
+  width: 600px;
+}
+
+.start .container .btn button {
+  /* display: flex;
+  justify-content: flex-end;
+  align-items: center; */
+  padding: 9px 33px 11px 32px;
+  border: 2px solid #012f34;
+  border-radius: 25px;
+  background: none;
+  font-family: "Livvic";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.start .container .btn button:hover {
+  background-color: #012f34;
+  color: #f67e7e;
+  border: 2px solid white;
+}
+
+.start .disk {
+  width: 200px;
+  transform: translate(0px, 4px);
+}
+
+/* footer */
+
+.footer {
+  background: #002529;
+  padding: 70px 0;
+  display: flex;
+}
+
+.footer .container .buttons a {
+  color: white;
+  font-family: "Livvic";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+
+  transition: 0.2s;
+}
+
+.footer .container .buttons a:hover {
+  color: #f67e7e;
+}
+
+.footer .container .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.footer .container .wrapper .adresses {
+  display: flex;
+  width: 168px;
+  font-family: "Livvic";
+  font-size: 15px;
+  line-height: 25px;
+  opacity: 60%;
+  color: white;
+}
+
+.footer .container .wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
+}
+
+.footer .container .lisence {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.footer .container .lisence p {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 255px;
+  font-family: "Livvic";
+  font-size: 15px;
+  line-height: 25px;
+  opacity: 60%;
+  color: white;
+}
